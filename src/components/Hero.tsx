@@ -68,8 +68,17 @@ const Hero = () => {
               <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-gradient-to-r from-green-400 to-teal-500 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-300">
                 <span className="text-white font-bold">⚛️</span>
               </div>
-              <div className="absolute top-1/2 -left-8 w-10 h-10 bg-gradient-to-r from-purple-400 to-pink-500 rounded-lg flex items-center justify-center shadow-lg animate-pulse">
-                <span className="text-white font-bold">🎨</span>
+              <div className="absolute top-1/2 -left-8 w-10 h-10 bg-gradient-to-r from-red-400 to-orange-500 rounded-lg flex items-center justify-center shadow-lg animate-pulse">
+                <span className="text-white font-bold text-xs">☕</span>
+              </div>
+              <div className="absolute top-1/4 -right-8 w-10 h-10 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-700">
+                <span className="text-white font-bold text-xs">🐬</span>
+              </div>
+              <div className="absolute bottom-1/4 -right-8 w-10 h-10 bg-gradient-to-r from-yellow-500 to-green-500 rounded-lg flex items-center justify-center shadow-lg animate-pulse delay-500">
+                <span className="text-white font-bold text-xs">🐍</span>
+              </div>
+              <div className="absolute bottom-1/2 -left-8 w-10 h-10 bg-gradient-to-r from-green-500 to-green-700 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-1000">
+                <span className="text-white font-bold text-xs">🍃</span>
               </div>
             </div>
           </div>
