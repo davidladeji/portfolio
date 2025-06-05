@@ -61,24 +61,21 @@ const Hero = () => {
                 <div className="text-6xl">👨‍💻</div>
               </div>
               
-              {/* Floating Tech Icons */}
-              <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center shadow-lg animate-bounce">
-                <span className="text-white font-bold">JS</span>
+              {/* Floating Tech Icons - Only 2 bouncing for less distraction */}
+              <div className="absolute -top-4 -right-4 w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg animate-bounce">
+                <span className="text-yellow-400 font-bold">JS</span>
               </div>
-              <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-gradient-to-r from-green-400 to-teal-500 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-300">
-                <span className="text-white font-bold">⚛️</span>
+              <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-300">
+                <span className="text-cyan-300 font-bold">⚛️</span>
               </div>
-              <div className="absolute top-1/2 -left-8 w-10 h-10 bg-gradient-to-r from-red-400 to-orange-500 rounded-lg flex items-center justify-center shadow-lg animate-pulse">
-                <span className="text-white font-bold text-xs">☕</span>
+              <div className="absolute top-1/2 -left-8 w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center shadow-lg">
+                <span className="text-red-800 font-bold text-xs">☕</span>
               </div>
-              <div className="absolute top-1/4 -right-8 w-10 h-10 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-700">
-                <span className="text-white font-bold text-xs">🐬</span>
+              <div className="absolute top-1/4 -right-8 w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg">
+                <span className="text-blue-400 font-bold text-xs">🐬</span>
               </div>
-              <div className="absolute bottom-1/4 -right-8 w-10 h-10 bg-gradient-to-r from-yellow-500 to-green-500 rounded-lg flex items-center justify-center shadow-lg animate-pulse delay-500">
-                <span className="text-white font-bold text-xs">🐍</span>
-              </div>
-              <div className="absolute bottom-1/2 -left-8 w-10 h-10 bg-gradient-to-r from-green-500 to-green-700 rounded-lg flex items-center justify-center shadow-lg animate-bounce delay-1000">
-                <span className="text-white font-bold text-xs">🍃</span>
+              <div className="absolute bottom-1/4 -right-8 w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg">
+                <span className="text-yellow-400 font-bold text-xs">🐍</span>
               </div>
             </div>
           </div>

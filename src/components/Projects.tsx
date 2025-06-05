@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -71,11 +71,7 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex space-x-3 pt-4">
-                  <Button variant="outline" size="sm" className="flex items-center gap-2">
-                    <ExternalLink className="h-4 w-4" />
-                    Live Demo
-                  </Button>
+                <div className="flex justify-end pt-4">
                   <Button variant="outline" size="sm" className="flex items-center gap-2">
                     <Github className="h-4 w-4" />
                     Code
