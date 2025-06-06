@@ -6,32 +6,32 @@ import { Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB featuring user authentication, payment integration, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Spring Store",
+      description: "A full featured RESTful API for an e-commerce platform built with Springboot, Java, and MySQL featuring user registration & authentication, role-based access control, product management, and Stripe payment integration.",
+      technologies: ["Java", "Springboot", "MySQL", "Stripe"],
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/davidladeji/spring-api-starter"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["Vue.js", "Firebase", "Vuex", "Socket.io"],
+      title: "Multi-Room Chat App",
+      description: "A real-time web application that supports multiple chatrooms, allowing users to exchange messages within dedicated rooms. Built using Python, Flask, JavaScript, and HTML/CSS.",
+      technologies: ["Python", "Flask", "Javascript", "AJAX"],
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/davidladeji/Multi-room-chat-app"
     },
     {
-      title: "Weather Analytics Dashboard",
-      description: "An interactive dashboard displaying weather data with charts, maps, and predictive analytics using machine learning algorithms.",
-      technologies: ["Python", "Flask", "D3.js", "TensorFlow"],
+      title: "Pitt Jungle",
+      description: "A collaboratively developed web application inspired by blogging, built with Flask, Python, HTML, and CSS. It allows users to discover and share insights about local sights, restaurants, and events in the greater Pittsburgh",
+      technologies: ["Python", "Flask", "HTML/CSS"],
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/davidladeji/PittJungle"
     },
     {
-      title: "Social Media App",
-      description: "A modern social media platform with user profiles, real-time messaging, photo sharing, and social interactions.",
-      technologies: ["React Native", "Express.js", "PostgreSQL", "Redis"],
+      title: "Flask Blog",
+      description: "Single-server blogging web application that allows users to share posts with the entire community. Built with Python, Flask, HTML & CSS",
+      technologies: ["Python", "Flask", "HTML/CSS", "SQLAlchemy"],
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/davidladeji/Flask-blog"
     }
   ];
 

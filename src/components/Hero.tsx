@@ -21,9 +21,6 @@ const Hero = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
         <div className="space-y-6 animate-fade-in">
           <div className="flex items-center space-x-4">
-            {/* <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
-              <span className="text-white text-xl font-bold">JS</span>
-            </div> */}
             <div>
               <span className="text-2xl">👋</span>
               <span className="font-bold text-gray-400 text-xl">  Hello Stranger, Nice to meet ya </span>
@@ -34,8 +31,6 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               <span className="text-gray-900">Oladapo David Ladeji</span>
               <br />
-              {/* <span className="text-gray-900">Ladeji</span>
-              <span className="text-black-400">_</span> */}
             </h1>
             
             <p className="text-lg text-gray-600 max-w-md leading-relaxed">
