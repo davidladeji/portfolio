@@ -21,26 +21,25 @@ const Hero = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
         <div className="space-y-6 animate-fade-in">
           <div className="flex items-center space-x-4">
-            <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
+            {/* <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
               <span className="text-white text-xl font-bold">JS</span>
-            </div>
+            </div> */}
             <div>
-              <h2 className="text-lg text-gray-600">Software Engineer</h2>
-              <h1 className="text-xl font-medium text-gray-800">Your Name Here</h1>
+              <span className="text-2xl">👋</span>
+              <span className="font-bold text-gray-400 text-xl">  Hello Stranger, Nice to meet ya </span>
             </div>
           </div>
 
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-              <span className="text-gray-900">Developer from</span>
+              <span className="text-gray-900">Oladapo David Ladeji</span>
               <br />
-              <span className="text-gray-900">Your City</span>
-              <span className="text-yellow-400">_</span>
+              {/* <span className="text-gray-900">Ladeji</span>
+              <span className="text-black-400">_</span> */}
             </h1>
             
             <p className="text-lg text-gray-600 max-w-md leading-relaxed">
-              A passionate developer that works to create amazing digital experiences 
-              and bring innovative ideas to life.
+              Engineer with a backend focus, a love for learning, and a drive to solve meaningful technical challenges
             </p>
           </div>
 
@@ -58,7 +57,6 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full opacity-30 animate-bounce"></div>
               <div className="absolute inset-8 bg-white rounded-full shadow-2xl flex items-center justify-center">
-                {/* <div className="text-6xl">👨‍💻</div> */}
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/004/491/062/non_2x/programmer-working-concept-for-web-banner-man-work-with-code-and-programming-at-computer-creates-software-modern-person-scene-illustration-in-flat-cartoon-design-with-people-characters-vector.jpg"
                   alt="3D Character"
