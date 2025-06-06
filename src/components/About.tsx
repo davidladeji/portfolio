@@ -30,9 +30,11 @@ const About = () => {
 
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden shadow-2xl">
-              <div className="w-full h-full bg-gradient-to-br from-blue-500/10 to-purple-500/10 flex items-center justify-center">
-                <div className="text-8xl opacity-50">👨‍💻</div>
-              </div>
+              <img
+                src="/lovable-uploads/e9a10b42-5499-4855-8353-cabd3cacbc96.png"
+                alt="Oladapo David Ladeji"
+                className="w-full h-full object-cover"
+              />
             </div>
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full opacity-80 animate-pulse"></div>
