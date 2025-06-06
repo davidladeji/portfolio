@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">Email</p>
-                  <p className="text-gray-600">your.email@example.com</p>
+                  <p className="text-gray-600">dladeji2@gmail.com</p>
                 </div>
               </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">LinkedIn</p>
-                  <p className="text-gray-600">linkedin.com/in/yourprofile</p>
+                  <p className="text-gray-600">linkedin.com/in/david-ladeji</p>
                 </div>
               </div>
             </div>

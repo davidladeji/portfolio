@@ -11,19 +11,23 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                A passionate developer that works to create amazing digital experiences 
-                and bring innovative ideas to life.
+                I'm a passionate software engineer who loves building scalable systems and 
+                turning thoughtful ideas into impactful digital experiences.
               </p>
               
               <p>
-                I have explored software development and web development throughout my career. 
-                I enjoy building scalable applications and learning new technologies to solve 
-                complex problems.
+                I've worked on meaningful engineering challenges, including helping localize 
+                over 70% of TurboTax's web pages into Spanish during my time at Intuit—making 
+                the product more accessible to millions of Spanish-speaking users in the U.S. 
+                My focus lies in backend development, and I enjoy learning new technologies to 
+                solve complex, real-world problems.
               </p>
               
               <p>
-                When I'm not coding, you can find me exploring new frameworks, contributing to 
-                open source projects, or sharing knowledge with the developer community.
+                When I'm not coding, you can find me playing volleyball or table tennis with 
+                friends, or binge-watching great TV shows. I thrive in collaborative teams, and 
+                I'm always looking for opportunities to grow, contribute, and connect with others
+                in the developer community.
               </p>
             </div>
           </div>

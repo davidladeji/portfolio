@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <span className="text-2xl">👨‍💻</span>
-              <span className="text-xl font-bold">Your Name</span>
+              <span className="text-xl font-bold">Oladapo Ladeji</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Software Engineer passionate about creating amazing digital experiences 
