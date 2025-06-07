@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Github } from 'lucide-react';
@@ -36,8 +35,18 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
-      <div className="container mx-auto px-6">
+    <section id="projects" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
+      {/* Background decorative circles */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-20 left-16 w-32 h-32 bg-gradient-to-r from-purple-400 to-violet-600 rounded-full opacity-12 animate-pulse"></div>
+        <div className="absolute top-1/4 right-10 w-24 h-24 bg-gradient-to-r from-emerald-400 to-green-600 rounded-full opacity-18 animate-bounce"></div>
+        <div className="absolute bottom-32 left-1/4 w-20 h-20 bg-gradient-to-r from-orange-400 to-red-500 rounded-full opacity-20 animate-pulse"></div>
+        <div className="absolute top-2/3 right-1/3 w-18 h-18 bg-gradient-to-r from-teal-400 to-cyan-500 rounded-full opacity-25 animate-bounce"></div>
+        <div className="absolute bottom-16 right-8 w-26 h-26 bg-gradient-to-r from-rose-400 to-pink-600 rounded-full opacity-15 animate-pulse"></div>
+        <div className="absolute top-1/2 left-8 w-14 h-14 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full opacity-28 animate-bounce"></div>
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
             Featured Projects

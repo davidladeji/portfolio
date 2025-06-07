@@ -1,12 +1,20 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Mail, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
-      <div className="container mx-auto px-6">
+    <section id="contact" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50 relative overflow-hidden">
+      {/* Background decorative circles */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-12 right-20 w-30 h-30 bg-gradient-to-r from-blue-400 to-indigo-600 rounded-full opacity-15 animate-pulse"></div>
+        <div className="absolute top-1/3 left-12 w-22 h-22 bg-gradient-to-r from-purple-400 to-violet-600 rounded-full opacity-20 animate-bounce"></div>
+        <div className="absolute bottom-20 right-1/4 w-18 h-18 bg-gradient-to-r from-pink-400 to-rose-500 rounded-full opacity-25 animate-pulse"></div>
+        <div className="absolute top-3/4 right-12 w-16 h-16 bg-gradient-to-r from-cyan-400 to-teal-500 rounded-full opacity-22 animate-bounce"></div>
+        <div className="absolute bottom-32 left-1/5 w-24 h-24 bg-gradient-to-r from-emerald-400 to-green-500 rounded-full opacity-18 animate-pulse"></div>
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
             Get In Touch

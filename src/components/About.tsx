@@ -1,8 +1,16 @@
-
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+    <section id="about" className="py-20 bg-white relative overflow-hidden">
+      {/* Background decorative circles */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-10 left-10 w-20 h-20 bg-gradient-to-r from-pink-400 to-rose-500 rounded-full opacity-20 animate-pulse"></div>
+        <div className="absolute top-32 right-16 w-16 h-16 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full opacity-25 animate-bounce"></div>
+        <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-gradient-to-r from-violet-400 to-purple-500 rounded-full opacity-15 animate-pulse"></div>
+        <div className="absolute top-1/2 right-8 w-12 h-12 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full opacity-30 animate-bounce"></div>
+        <div className="absolute bottom-32 right-1/3 w-18 h-18 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full opacity-20 animate-pulse"></div>
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900">

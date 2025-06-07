@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { MapPin, Calendar } from 'lucide-react';
 
@@ -42,8 +41,17 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+    <section id="experience" className="py-20 bg-white relative overflow-hidden">
+      {/* Background decorative circles */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-16 right-12 w-28 h-28 bg-gradient-to-r from-indigo-400 to-blue-600 rounded-full opacity-15 animate-pulse"></div>
+        <div className="absolute top-1/3 left-8 w-20 h-20 bg-gradient-to-r from-fuchsia-400 to-pink-500 rounded-full opacity-20 animate-bounce"></div>
+        <div className="absolute bottom-24 right-1/4 w-16 h-16 bg-gradient-to-r from-lime-400 to-green-500 rounded-full opacity-25 animate-pulse"></div>
+        <div className="absolute top-3/4 left-1/3 w-22 h-22 bg-gradient-to-r from-red-400 to-rose-500 rounded-full opacity-18 animate-bounce"></div>
+        <div className="absolute bottom-40 left-12 w-14 h-14 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full opacity-22 animate-pulse"></div>
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
             Experience
