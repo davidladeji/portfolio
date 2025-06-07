@@ -13,7 +13,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="font-bold text-xl"> (Needs something) </span>
+            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center shadow-lg">
+              <span className="font-bold text-lg text-white">OL</span>
+            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
