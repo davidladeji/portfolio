@@ -83,7 +83,9 @@ const Projects = () => {
                 <div className="flex justify-end pt-4">
                   <Button variant="outline" size="sm" className="flex items-center gap-2">
                     <Github className="h-4 w-4" />
-                    Code
+                    <a href={project.githubLink} target="_blank" >
+                      Code
+                    </a>
                   </Button>
                 </div>
               </CardContent>
