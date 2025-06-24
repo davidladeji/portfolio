@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="flex items-center space-x-4">
             <div>
               <span className="text-2xl">👋</span>
-              <span className="font-bold text-gray-400 text-xl">  Hello Stranger, Nice to meet ya </span>
+              <span className="font-bold text-gray-400 text-xl">  Hello Stranger, I'm </span>
             </div>
           </div>
 
@@ -39,6 +39,7 @@ const Hero = () => {
           </div>
 
           <Button 
+            onClick={() => window.open('https://drive.google.com/file/d/1M47SrSAkkIm-pVoy5kkBeve8n77j8dR_/view?usp=sharing', '_blank')}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105"
           >
             VIEW RESUME
