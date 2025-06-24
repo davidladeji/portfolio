@@ -1,6 +1,5 @@
 
 import { Github, Linkedin, Mail } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -46,12 +45,27 @@ const Header = () => {
           </div>
 
           <div className="flex items-center space-x-3">
-            <Button variant="ghost" size="icon" className="rounded-full">
+            {/* Github */}
+            <a
+              href="https://github.com/davidladeji"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full transition-colors inline-flex items-center justify-center"
+              style={{ width: 40, height: 40 }}
+            >
               <Github className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" className="rounded-full">
+            </a>
+            {/* LinkedIn */}
+            <a
+              href="https://linkedin.com/in/david-ladeji"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full hover:text-blue-700 transition-colors inline-flex items-center justify-center"
+              style={{ width: 40, height: 40 }}
+            >
               <Linkedin className="h-5 w-5" />
-            </Button>
+            </a>
+            
           </div>
         </nav>
       </div>
