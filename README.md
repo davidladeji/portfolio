@@ -1,6 +1,6 @@
 # Portfolio Website
 
-**URL**: https://davidladeji.github.io/dladeji-portfolio/
+**URL**: https://davidladeji.github.io/portfolio/
 
 ## What technologies are used for this project?
 
