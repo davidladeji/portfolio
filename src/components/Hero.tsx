@@ -19,7 +19,8 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
-        <div className="space-y-6 animate-fade-in">
+        {/* Text Content - First on desktop, Second on mobile */}
+        <div className="space-y-6 animate-fade-in order-2 md:order-1">
           <div className="flex items-center space-x-4">
             <div>
               <span className="text-2xl">👋</span>
@@ -46,21 +47,22 @@ const Hero = () => {
           </Button>
         </div>
 
-        <div className="flex items-center justify-center">
+        {/* Image Content - Second on desktop, First on mobile */}
+        <div className="flex items-center justify-center order-1 md:order-2">
           <div className="relative">
             {/* 3D Character Inspired Illustration */}
             <div className="w-80 h-80 relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full opacity-30 animate-bounce"></div>
-              <div className="absolute inset-8 bg-white rounded-full shadow-2xl flex items-center justify-center">
+              <div className="absolute inset-8 bg-white rounded-full shadow-2xl flex items-center justify-center overflow-hidden">
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/004/491/062/non_2x/programmer-working-concept-for-web-banner-man-work-with-code-and-programming-at-computer-creates-software-modern-person-scene-illustration-in-flat-cartoon-design-with-people-characters-vector.jpg"
                   alt="3D Character"
-                  className="w-72 h-72 md:w-96 md:h-32 object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               
-              {/* Floating Tech Icons - Only 2 bouncing for less distraction */}
+              {/* Floating Tech Icons */}
               <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center shadow-lg animate-bounce">
                 <span className="text-white font-bold">JS</span>
               </div>
@@ -82,7 +84,7 @@ const Hero = () => {
                   <img width="36" height="36" src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/external-MySQL-programming-and-development-those-icons-lineal-color-those-icons.png" alt="external-MySQL-programming-and-development-those-icons-lineal-color-those-icons"/>
                 </span>
               </div>
-              {/* FIX PYTHON LOGO */}
+              {/* PYTHON LOGO */}
               <div className="absolute bottom-1/4 -right-8 w-10 h-10 bg-green-300 rounded-lg flex items-center justify-center shadow-lg">
                 <span className="text-yellow-400 font-bold text-xs">
                   <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000"/>
